@@ -1,0 +1,109 @@
+body {
+  background-color: #cec6c6;
+  font-family: "Inter";
+  /* margin:0; */
+}
+.container {
+  min-height: 95vh;
+  width: 65%;
+  background-color: #ffff;
+  margin-left: 20%;
+  margin-top: 1%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  position: absolute;
+}
+
+.invoice_header {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  min-height: 20vh;
+  background: rgba(217, 217, 217, 0.3);
+  margin-left: 8%;
+  margin-top: 5%;
+}
+
+.company_address {
+  margin-right: 10px;
+  line-height: 1.8;
+  word-spacing: 5px;
+}
+.invoice_header h2 {
+  margin-bottom: 0;
+}
+.pharm {
+  margin-top: 5%;
+  margin-left: 3%;
+}
+.bill {
+  margin-top: 1%;
+  margin-left: -4%;
+}
+.address {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 15px;
+}
+.ship {
+  margin-top: 1%;
+}
+table,
+td {
+  border-collapse: collapse;
+}
+
+td {
+  text-align: justify;
+  text-align-last: center;
+  border-bottom: 1px solid rgb(235, 235, 235);
+  border-collapse: collapse;
+}
+th {
+  background-color: #653d85;
+  color: white;
+}
+.table-bg {
+  background-color: rgba(209, 209, 211, 0.2);
+  padding: 5px;
+}
+.w-full {
+  width: 85%;
+  margin-left: 8%;
+  margin-top: 1%;
+}
+.terms-1 {
+  margin-left: 8%;
+}
+.total-1 {
+  margin-left: 80%;
+  margin-top: -6%;
+  font-weight: 800;
+  /* line-height: 1.20; */
+}
+
+.button {
+  /* position: absolute; */
+  /* top:50%; */
+  background-color: #653d85;
+  color: white;
+  outline: none;
+  padding: 0.8em;
+  border: none;
+  font-size: 14px;
+  font-family: Nunito;
+  font-weight: 400;
+}
+.line-1 {
+  height: 1px;
+  background: #808080;
+  margin-left: -800px;
+  width: 1000px;
+  margin-top: 10%;
+  /* margin-top: 5%; */
+}
+.text p {
+  margin-left: 40%;
+  color: #653d85;
+  font-weight: 800;
+}
